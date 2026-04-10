@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Glass_Bottle', 'HDPE_Bottle', 'PET_ClearBottle', 'PET_With_Cap', 'PET_With_Liquid', 'REJECT']
+
+roboflow:
+  workspace: thesis-trainer
+  project: par-mg5f5
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/thesis-trainer/par-mg5f5/dataset/5
