@@ -1,0 +1,24 @@
+description: Ultralytics YOLO11n model trained on dataset/data.yaml
+author: Ultralytics
+date: '2026-04-22T16:50:16.226480'
+version: 8.4.36
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Glass_Bottle
+  1: HDPE_Bottle
+  2: PET_ClearBottle
+  3: PET_With_Cap
+  4: PET_With_Liquid
+  5: REJECT
+args:
+  batch: 1
+  half: false
+channels: 3
+end2end: false
